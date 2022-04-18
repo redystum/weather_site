@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ac2e20b.css",
-    "main.js": "/static/js/main.f146ff14.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/Courgette-Regular.ttf": "/static/media/Courgette-Regular.af9c15cb720a8108634f.ttf",
-    "static/media/Whitney-Book-Bas.otf": "/static/media/Whitney-Book-Bas.bb4de2c5d69c2c3653f3.otf",
-    "static/media/min.png": "/static/media/min.eeefaa88f59f8acff555.png",
-    "static/media/presure.png": "/static/media/presure.c9026bd734514474ec3f.png",
-    "static/media/humidity.png": "/static/media/humidity.a5d3cbc8d44bbdf9d6c3.png",
-    "static/media/max.png": "/static/media/max.9d471573dfa4677dbae9.png",
-    "static/media/arrow.png": "/static/media/arrow.ddaac0729e1062ab6ed9.png",
-    "static/media/arrow_front.png": "/static/media/arrow_front.4d313d7bd30abe0f1b81.png",
-    "static/media/arrow_back.png": "/static/media/arrow_back.3c78c55710194c8ba0fd.png",
-    "static/media/sunrise.png": "/static/media/sunrise.6a7e04bb77f9cc60c194.png",
-    "static/media/sunset.png": "/static/media/sunset.b7914bd7bca764aea099.png",
-    "static/media/wind.png": "/static/media/wind.853b7665be23857f7691.png",
-    "index.html": "/index.html",
-    "main.9ac2e20b.css.map": "/static/css/main.9ac2e20b.css.map",
-    "main.f146ff14.js.map": "/static/js/main.f146ff14.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "./static/css/main.cdecb94e.css",
+    "main.js": "./static/js/main.2de5f73f.js",
+    "static/js/787.28cb0dcd.chunk.js": "./static/js/787.28cb0dcd.chunk.js",
+    "static/media/Courgette-Regular.ttf": "./static/media/Courgette-Regular.af9c15cb720a8108634f.ttf",
+    "static/media/Whitney-Book-Bas.otf": "./static/media/Whitney-Book-Bas.bb4de2c5d69c2c3653f3.otf",
+    "static/media/min.png": "./static/media/min.eeefaa88f59f8acff555.png",
+    "static/media/presure.png": "./static/media/presure.c9026bd734514474ec3f.png",
+    "static/media/humidity.png": "./static/media/humidity.a5d3cbc8d44bbdf9d6c3.png",
+    "static/media/max.png": "./static/media/max.9d471573dfa4677dbae9.png",
+    "static/media/arrow.png": "./static/media/arrow.ddaac0729e1062ab6ed9.png",
+    "static/media/arrow_front.png": "./static/media/arrow_front.4d313d7bd30abe0f1b81.png",
+    "static/media/arrow_back.png": "./static/media/arrow_back.3c78c55710194c8ba0fd.png",
+    "static/media/sunrise.png": "./static/media/sunrise.6a7e04bb77f9cc60c194.png",
+    "static/media/sunset.png": "./static/media/sunset.b7914bd7bca764aea099.png",
+    "static/media/wind.png": "./static/media/wind.853b7665be23857f7691.png",
+    "index.html": "./index.html",
+    "main.cdecb94e.css.map": "./static/css/main.cdecb94e.css.map",
+    "main.2de5f73f.js.map": "./static/js/main.2de5f73f.js.map",
+    "787.28cb0dcd.chunk.js.map": "./static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ac2e20b.css",
-    "static/js/main.f146ff14.js"
+    "static/css/main.cdecb94e.css",
+    "static/js/main.2de5f73f.js"
   ]
 }
