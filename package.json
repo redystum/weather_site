@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/Complete_weather_site",
+  "homepage": ".",
   "dependencies": {
     "@react-spring/three": "^9.4.4",
     "@react-three/drei": "^9.4.2",
