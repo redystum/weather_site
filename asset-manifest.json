@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Complete_weather_site/static/css/main.ce9e33ac.css",
-    "main.js": "/Complete_weather_site/static/js/main.c7b008fb.js",
+    "main.js": "/Complete_weather_site/static/js/main.75544d4f.js",
     "static/js/787.28cb0dcd.chunk.js": "/Complete_weather_site/static/js/787.28cb0dcd.chunk.js",
     "static/media/Courgette-Regular.ttf": "/Complete_weather_site/static/media/Courgette-Regular.af9c15cb720a8108634f.ttf",
     "static/media/Whitney-Book-Bas.otf": "/Complete_weather_site/static/media/Whitney-Book-Bas.bb4de2c5d69c2c3653f3.otf",
@@ -17,11 +17,11 @@
     "static/media/wind.png": "/Complete_weather_site/static/media/wind.853b7665be23857f7691.png",
     "index.html": "/Complete_weather_site/index.html",
     "main.ce9e33ac.css.map": "/Complete_weather_site/static/css/main.ce9e33ac.css.map",
-    "main.c7b008fb.js.map": "/Complete_weather_site/static/js/main.c7b008fb.js.map",
+    "main.75544d4f.js.map": "/Complete_weather_site/static/js/main.75544d4f.js.map",
     "787.28cb0dcd.chunk.js.map": "/Complete_weather_site/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce9e33ac.css",
-    "static/js/main.c7b008fb.js"
+    "static/js/main.75544d4f.js"
   ]
 }
