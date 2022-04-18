@@ -283,7 +283,7 @@ function get_weather() {
     )
   }
 
-  var weather_url = "http://api.openweathermap.org/geo/1.0/direct?q=" + city + "," + country + "&appid=" + "f60cc8c8b061cecca117979598493cda";
+  var weather_url = "https://api.openweathermap.org/geo/1.0/direct?q=" + city + "," + country + "&appid=" + "f60cc8c8b061cecca117979598493cda";
 
   fetch(weather_url)
     .then((res) => res.json())
@@ -311,7 +311,7 @@ function get_weather() {
     })
 
   function weather(cords) {
-    var weather_url = "http://api.openweathermap.org/data/2.5/weather?lat=" + cords[0] + "&lon=" + cords[1] + "&units=metric" + "&lang=" + cords[2].toLowerCase() + "&appid=" + "f60cc8c8b061cecca117979598493cda";
+    var weather_url = "https://api.openweathermap.org/data/2.5/weather?lat=" + cords[0] + "&lon=" + cords[1] + "&units=metric" + "&lang=" + cords[2].toLowerCase() + "&appid=" + "f60cc8c8b061cecca117979598493cda";
 
 
     fetch(weather_url)
@@ -342,7 +342,7 @@ function get_weather() {
         var minutes = "0" + date.getMinutes();
         var seconds = "0" + date.getSeconds();
         var sunset = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
-        var weather_icon_url = "http://openweathermap.org/img/wn/" + weather_icon + "@2x.png";
+        var weather_icon_url = "https://openweathermap.org/img/wn/" + weather_icon + "@2x.png";
 
         temperature = temperature.toString().split(".");
         temp_max = temp_max.toString().split(".");
@@ -559,37 +559,37 @@ function get_weather() {
                   <div className="cards">
                     <Row>
                       <Col md={2}>
-                        <img src={"http://openweathermap.org/img/wn/" + f_img[0] + "@2x.png"}></img>
+                        <img src={"https://openweathermap.org/img/wn/" + f_img[0] + "@2x.png"}></img>
                         <h4>{f_week[0]}</h4>
                         <h3>{f_temp[0]}</h3>
                         <h4>{f_day[0]}</h4>
                       </Col>
                       <Col md={2}>
-                        <img src={"http://openweathermap.org/img/wn/" + f_img[1] + "@2x.png"}></img>
+                        <img src={"https://openweathermap.org/img/wn/" + f_img[1] + "@2x.png"}></img>
                         <h4>{f_week[1]}</h4>
                         <h3>{f_temp[1]}</h3>
                         <h4>{f_day[1]}</h4>
                       </Col>
                       <Col md={2}>
-                        <img src={"http://openweathermap.org/img/wn/" + f_img[2] + "@2x.png"}></img>
+                        <img src={"https://openweathermap.org/img/wn/" + f_img[2] + "@2x.png"}></img>
                         <h4>{f_week[2]}</h4>
                         <h3>{f_temp[2]}</h3>
                         <h4>{f_day[2]}</h4>
                       </Col>
                       <Col md={2}>
-                        <img src={"http://openweathermap.org/img/wn/" + f_img[3] + "@2x.png"}></img>
+                        <img src={"https://openweathermap.org/img/wn/" + f_img[3] + "@2x.png"}></img>
                         <h4>{f_week[3]}</h4>
                         <h3>{f_temp[3]}</h3>
                         <h4>{f_day[3]}</h4>
                       </Col>
                       <Col md={2}>
-                        <img src={"http://openweathermap.org/img/wn/" + f_img[4] + "@2x.png"}></img>
+                        <img src={"https://openweathermap.org/img/wn/" + f_img[4] + "@2x.png"}></img>
                         <h4>{f_week[4]}</h4>
                         <h3>{f_temp[4]}</h3>
                         <h4>{f_day[4]}</h4>
                       </Col>
                       <Col md={2}>
-                        <img src={"http://openweathermap.org/img/wn/" + f_img[5] + "@2x.png"}></img>
+                        <img src={"https://openweathermap.org/img/wn/" + f_img[5] + "@2x.png"}></img>
                         <h4>{f_week[5]}</h4>
                         <h3>{f_temp[5]}</h3>
                         <h4>{f_day[5]}</h4>
