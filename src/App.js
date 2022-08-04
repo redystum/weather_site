@@ -62,7 +62,7 @@ function App() {
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
           crossorigin="anonymous"
         />
-        <title>Redystum.tk</title>
+        <title>Redystum.me</title>
       </Helmet>
       <Container fluid>
         <Row>
@@ -80,8 +80,8 @@ function App() {
                   <Nav className="me-auto">
                   </Nav>
                   <Navbar.Text>
-                    <a href="http://redystum.tk">
-                      <h5 className='text-secondary'>redystum.tk</h5>
+                    <a href="http://redystum.me">
+                      <h5 className='text-secondary'>redystum.me</h5>
                     </a>
                   </Navbar.Text>
                 </Navbar.Collapse>
