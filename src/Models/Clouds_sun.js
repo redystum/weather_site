@@ -7,7 +7,7 @@ import { useGLTF } from '@react-three/drei'
 
 export default function Clouds_sun({ ...props }) {
   const group = useRef()
-  const { nodes, materials } = useGLTF('/clouds_sun.glb')
+  const { nodes, materials } = useGLTF('/weather_site/clouds_sun.glb')
   return (
     <group ref={group} {...props} dispose={null}>
       <mesh geometry={nodes.Sphere.geometry} material={materials.orange} position={[0, 2.35, 0]} scale={0.82} />

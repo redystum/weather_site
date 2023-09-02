@@ -7,7 +7,7 @@ import { useGLTF } from '@react-three/drei'
 
 export default function Snow({ ...props }) {
   const group = useRef()
-  const { nodes, materials } = useGLTF('/snow.glb')
+  const { nodes, materials } = useGLTF('/weather_site/snow.glb')
   return (
     <group ref={group} {...props} dispose={null}>
       <mesh geometry={nodes.Cube004.geometry} material={materials.white} position={[0.43, 3.22, -7.68]} rotation={[0, -0.53, 0]} />

@@ -7,7 +7,7 @@ import { useGLTF } from '@react-three/drei'
 
 export default function Clouds_grey_white({ ...props }) {
   const group = useRef()
-  const { nodes, materials } = useGLTF('/clouds_grey_white.glb')
+  const { nodes, materials } = useGLTF('/weather_site/clouds_grey_white.glb')
   return (
     <group ref={group} {...props} dispose={null}>
       <mesh geometry={nodes.Cube004.geometry} material={materials.grey} position={[0.43, 3.22, -7.68]} rotation={[0, -0.53, 0]} />

@@ -7,7 +7,7 @@ import { useGLTF } from '@react-three/drei'
 
 export default function Mist({ ...props }) {
   const group = useRef()
-  const { nodes, materials } = useGLTF('/mist.glb')
+  const { nodes, materials } = useGLTF('/weather_site/mist.glb')
   return (
     <group ref={group} {...props} dispose={null}>
       <mesh geometry={nodes.Cube025.geometry} material={materials.white} position={[0, 0.93, 0]} rotation={[0, -0.31, 0]} scale={[4.97, 0.23, 0.23]} />
